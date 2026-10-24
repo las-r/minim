@@ -1,0 +1,11 @@
+set i 0
+set q loopif 1 {
+    set i i + 1
+
+    # use double break statement to bubble up
+    break loopif i >= 12 {
+        break i
+    }
+}
+
+out q

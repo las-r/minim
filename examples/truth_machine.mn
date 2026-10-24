@@ -1,0 +1,10 @@
+set i num in 'Input: '
+
+loopif i == 0 {
+    out '0'
+    break 0
+}
+
+loopif i == 1 {
+    out '1'
+}
