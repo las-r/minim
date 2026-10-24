@@ -25,7 +25,7 @@ python minim.py file_to_run.py
 | `in X` | `input(X)` |
 | `num X` | `float(X)` |
 | `loopif C { ... }` | N/A (closest equivalent is `while C:`) |
-| `break X` | N/A (closest is `break`) |
+| `break X` | N/A (closest equivalent is `break`) |
 
 ### Operators
 - **Arithmetic:** +, -, *, /, %
